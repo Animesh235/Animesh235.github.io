@@ -1,753 +1,287 @@
 ﻿<!DOCTYPE html>
-<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html class="no-js" lang="en">
- <!--<![endif]-->
+<html lang="en">
 <head>
-
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <title>Animesh Panda</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/vendor.css">
-
-    <!-- script
-    ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
-
-    <!-- favicons
-     ================================================== -->
-    <link rel="icon" type="image/png" href="favicon.png">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio Template</title>
+    <meta name="description" content="A customizable portfolio template for showcasing your work and skills.">
+    <meta name="keywords" content="portfolio, developer, software engineer, web development, projects, skills">
+    <meta name="author" content="Your Name">
+    <meta name="robots" content="index, follow">
+    <!-- Open Graph for social sharing -->
+    <meta property="og:title" content="Your Name - Portfolio">
+    <meta property="og:description" content="Showcasing my work, skills, and projects in software development.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://animesh235.github.io/">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630/4A90E2/FFFFFF?text=Portfolio">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Your Name - Portfolio">
+    <meta name="twitter:description" content="Showcasing my work, skills, and projects.">
+    <meta name="twitter:image" content="https://via.placeholder.com/1200x630/4A90E2/FFFFFF?text=Portfolio">
+    <link rel="canonical" href="https://animesh235.github.io/">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons (minimal CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-
-<body id="top">
-
-    <!-- header
-    ================================================== -->
+<body>
+    <!-- Header -->
     <header>
-        <div class="row">
+        <div class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu" role="button" tabindex="0">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav role="navigation" aria-label="Main navigation">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Experience</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#projects-skills">Projects & Skills</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-            <div class="top-bar">
-                <a class="menu-toggle" href="#"><span>Menu</span></a>
+    <!-- Hero/Intro Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm <span>Your Name</span></h1>
+            <p>Your Profession | Your Specialty</p>
+            <a href="#about" class="btn">More About Me</a>
+        </div>
+        <ul class="social-links">
+            <li><a href="https://www.linkedin.com/in/your-profile" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/your-username" aria-label="GitHub"><i class="fab fa-github"></i></a></li>
+        </ul>
+    </section>
 
-                <div class="logo">
-                    <a href="index.html">Animesh</a>
-                </div>
-
-                <nav id="main-nav-wrap">
-                    <ul class="main-navigation">
-                        <li class="current"><a class="smoothscroll" href="#intro" title="">Home</a></li>
-                        <li><a class="smoothscroll" href="#about" title="">About</a></li>
-                        <li><a class="smoothscroll" href="#resume" title="">Experience</a></li>
-                        <li><a class="smoothscroll" href="#portfolio" title="">Portfolio</a></li>
-                        <li><a class="smoothscroll" href="#cta" title="">Projects and Skills</a></li>
-                        <li><a class="smoothscroll" href="#services" title="">Interest</a></li>
-                        <li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
-                    </ul>
-                </nav>
-            </div> <!-- /top-bar -->
-
-        </div> <!-- /row -->
-    </header> <!-- /header -->
-    <!-- intro section
-    ================================================== -->
-    <section id="intro">
-
-        <div class="intro-overlay"></div>
-
-        <div class="intro-content">
-            <div class="row">
-
-                <div class="col-twelve">
-
-                    <h5>Hello there</h5>
-                    <h1>I'm Animesh Panda</h1>
-
-                    <p class="intro-position">
-                        <span>Associate Software Engineer</span>
-                        <span>Maintainence Enginner</span>
-                    </p>
-
-                    <a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
-
-                </div>
-
-            </div>
-        </div> <!-- /intro-content -->
-
-        <ul class="intro-social">
-            <li><a href="https://www.linkedin.com/in/animesh-panda-a29131193"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="https://github.com/Animesh235"><i class="fa fa-github"></i></a></li>
-        </ul> <!-- /intro-social -->
-
-    </section> <!-- /intro -->
-    <!-- about section
-    ================================================== -->
+    <!-- About Section -->
     <section id="about">
+        <div class="about-img">
+            <img src="https://via.placeholder.com/300x300/4A90E2/FFFFFF?text=Profile+Photo" alt="Your Profile Picture">
+        </div>
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>Hello, I'm <strong>Your Name</strong>, a <strong>your profession</strong> with a passion for <strong>your interests</strong>. I have experience in <strong>your skills</strong>, and I love building innovative projects. This portfolio showcases my work and interests.</p>
+            <!-- Add more bio paragraphs as needed -->
+        </div>
+    </section>
 
-        <div class="row section-intro">
-            <div class="col-twelve">
-
-                <h5>About</h5>
-                <h1>Let me introduce myself.</h1>
-
-                <div class="intro-info">
-
-                    <img src="images/pf1.jpg" alt="Profile Picture">
-
-                    <p class="lead">
-                        Hello, I'm Animesh Panda, an electrical engineer who transitioned from maintenance engineering in the semiconductor industry to specialize in automation testing within information technology (IT). With a background in electrical engineering and expertise in manual quality assurance, I navigate the software testing landscape with precision. As a tech enthusiast, I enjoy exploring new technology and developing innovative web applications, which are showcased on this website.
-                    </p>
-                </div>
-
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Experience</h2>
+        <div class="timeline">
+            <h3>Work Experience</h3>
+            <div class="timeline-item">
+                <h4>Your Job Title</h4>
+                <p>Start Date - End Date</p>
+                <p>Company Name</p>
+                <p>Description of your role and company. Replace with your actual experience.</p>
             </div>
-        </div> <!-- /section-intro -->
-
-
-
-    </section> <!-- /about-->
-    <!-- resume Section
-    ================================================== -->
-    <section id="resume" class="grey-section">
-
-        <div class="row section-intro">
-            <div class="col-twelve">
-
-                <h5>Resume</h5>
-                <h1>More of my credentials.</h1>
+            <div class="timeline-item">
+                <h4>Your Previous Job Title</h4>
+                <p>Start Date - End Date</p>
+                <p>Previous Company Name</p>
+                <p>Description of your previous role. Add more items as needed.</p>
             </div>
-        </div> <!-- /section-intro-->
+            <h3>Education</h3>
+            <div class="timeline-item">
+                <h4>Your Degree</h4>
+                <p>Start Year - End Year</p>
+                <p>University Name</p>
+                <p>Description of your education. Customize with your details.</p>
+            </div>
+            <!-- Add more education items -->
+        </div>
+    </section>
 
-        <div class="row resume-timeline">
-
-            <div class="col-twelve resume-header">
-
-                <h2>Work Experience</h2>
-
-            </div> <!-- /resume-header -->
-
-            <div class="col-twelve">
-
-                <div class="timeline-wrap">
-                 
-                 <div class="timeline-block">
-
-                        <div class="timeline-ico">
-                            <i class="fa fa-briefcase"></i>
-                        </div>
-
-                        <div class="timeline-header">
-                            <h3>Associate Software Engineer</h3>
-                            <p>November 2022 - Present</p>
-                        </div>
-
-                        <div class="timeline-content">
-                            <h4>EverestIMS technologies PVT. LTD.</h4>
-                            <p>
-                                EverestIMS Technologies Pvt Ltd (Everest), is an Indian software product company. With a rich market experience in the I&O space, the company has built a widespread presence across the country through its product portfolio.
-                            </p>
-
-                        </div>
-
-                    </div> <!-- /timeline-block -->
-                 
-                        <div class="timeline-block">
-
-                        <div class="timeline-ico">
-                            <i class="fa fa-briefcase"></i>
-                        </div>
-
-                        <div class="timeline-header">
-                            <h3>Maintenance Engineer</h3>
-                            <p>May 2019 - Nov 2021</p>
-                        </div>
-
-                        <div class="timeline-content">
-                            <h4>Websol Energy System LTD.</h4>
-                            <p>
-                                Websol Energy System Ltd. (formerly Webel SL Energy Systems Ltd.) is a leading manufacturer of photovoltaic monocrystalline solar cells and modules in India.
-                            </p>
-
-                    </div>
-
-                </div> <!-- /timeline-wrap -->
-
-            </div> <!-- /col-twelve -->
-
-        </div> <!-- /resume-timeline -->
-
-        <div class="row resume-timeline">
-
-            <div class="col-twelve resume-header">
-
-                <h2>Education</h2>
-
-            </div> <!-- /resume-header -->
-
-            <div class="col-twelve">
-
-                <div class="timeline-wrap">
-
-                    <div class="timeline-block">
-
-                        <div class="timeline-ico">
-                            <i class="fa fa-graduation-cap"></i>
-                        </div>
-
-                        <div class="timeline-header">
-                            <h3>Bachelor of Technology in Electrical Engineering</h3>
-                            <p>July 2015 - June 2019</p>
-                        </div>
-
-                        <div class="timeline-content">
-                            <h4>Maulana Abul Kalam Azad University of Technology</h4>
-                            <p>
-                                Maulana Abul Kalam Azad University of Technology, West Bengal (MAKAUT, WB), formerly known as West Bengal University of Technology (WBUT) is a public state university located in Haringhata, West Bengal, India.
-                                It is funded completely by the Government of West Bengal.
-                            </p>
-                        </div>
-
-                    </div> <!-- /timeline-block -->
-
-
-
-                </div> <!-- /timeline-wrap -->
-
-            </div> <!-- /col-twelve -->
-
-        </div> <!-- /resume-timeline -->
-
-    </section> <!-- /features -->
-
-
-    
-    <!-- Portfolio Section
-    ================================================== -->
+    <!-- Portfolio Section -->
     <section id="portfolio">
-
-        <div class="row section-intro">
-            <div class="col-twelve">
-
-                <h5>Portfolio</h5>
-                <h1>My Activities</h1>
-                <p class="lead">In my spare time, I enthusiastically explore new technologies, particularly in coding, and enjoy electronics. Constantly learning and experimenting, I stay abreast of the latest advancements in the tech world, driven by a passion for innovation. </p>
-
+        <h2>Portfolio</h2>
+        <p class="lead">Showcase your activities and projects here. In my spare time, I enthusiastically explore new technologies, particularly in coding, and enjoy electronics. Constantly learning and experimenting, I stay abreast of the latest advancements in the tech world, driven by a passion for innovation.</p>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/400x300/4A90E2/FFFFFF?text=Blogging+Project" alt="Blogging Project">
+                <div class="portfolio-info">
+                    <h3>Blogging</h3>
+                    <p>Read my blogs</p>
+                    <button class="portfolio-trigger" data-modal="modal1">View Details</button>
+                </div>
             </div>
-        </div> <!-- /section-intro-->
-
-        <div class="row portfolio-content">
-
-            <div class="col-twelve">
-
-                <!-- portfolio-wrapper -->
-                <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
-
-                    <div class="bgrid folio-item">
-                        <div class="item-wrap">
-                            <img src="images/portfolio/shutterbug.jpg" alt="Shutterbug">
-                            <a href="#modal-01" class="overlay">
-                                <div class="folio-item-table">
-                                    <div class="folio-item-cell">
-                                        <h3 class="folio-title">Blogging</h3>
-                                        <span class="folio-types">
-                                            Read my blogs
-                                        </span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div> <!-- /folio-item -->
-
-                    <div class="bgrid folio-item">
-                        <div class="item-wrap">
-                            <img src="images/portfolio/beetle.jpg" alt="Beetle">
-                            <a href="#modal-02" class="overlay">
-                                <div class="folio-item-table">
-                                    <div class="folio-item-cell">
-                                        <h3 class="folio-title">Electronics enthusiasm</h3>
-                                        <span class="folio-types">
-                                            Personal enthusiasm
-                                        </span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div> <!-- /folio-item -->
-
-                    <div class="bgrid folio-item">
-                        <div class="item-wrap">
-                            <img src="images/portfolio/salad.jpg" alt="Salad">
-                            <a href="#modal-03" class="overlay">
-                                <div class="folio-item-table">
-                                    <div class="folio-item-cell">
-                                        <h3 class="folio-title">Traveling</h3>
-                                        <span class="folio-types">
-                                            Youtube Channel
-                                        </span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div> <!-- /folio-item -->
-
-                    <div class="bgrid folio-item">
-                        <div class="item-wrap">
-                            <img src="images/portfolio/tech.jpg" alt="tech">
-                            <a href="#modal-04" class="overlay">
-                                <div class="folio-item-table">
-                                    <div class="folio-item-cell">
-                                        <h3 class="folio-title">Learning Tech</h3>
-                                        <span class="folio-types">
-                                            Exploring New Technologies
-                                        </span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div> <!-- /folio-item -->
-
-                    <!-- modal popups - begin
-                    ============================================================= -->
-
-                    <div id="modal-01" class="popup-modal slider mfp-hide">
-
-                        <div class="media">
-                            <img src="images/portfolio/modals/m-shutterbug.jpg" alt="" />
-                        </div>
-
-                        <div class="description-box">
-                            <h4>Blogging</h4>
-                            <p> I am a tech enthusiast specializing in software testing and development. Passionate about exploring innovative solutions and optimizing processes, I thrive in the dynamic world of software quality assurance. Blogging is my outlet to share insights and inspire others in the tech community. I am dedicated to contributing to the advancement of technology through my writing.</p>
-                            <div class="categories">Tech Blogs</div>
-                        </div>
-
-                        <div class="link-box">
-                            <a href="https://softwaretesterpoint.blogspot.com/">Read my Blogs</a>
-                            <a href="#" class="popup-modal-dismiss">Close</a>
-                        </div>
-
-                    </div> <!-- /modal-01 -->
-
-                    <div id="modal-02" class="popup-modal slider mfp-hide">
-
-                        <div class="media">
-                            <img src="images/portfolio/modals/m-beetle.jpg" alt="" />
-                        </div>
-
-                        <div class="description-box">
-                            <h4>Electronics enthusiasm</h4>
-                            <p> As a former Electronics Equipment Maintenance Engineer, I possess a robust understanding of electrical and electronics concepts. My expertise extends to areas such as PCVD (Plasma Enhanced Chemical Vapour Deposition), where I specialized in PLC programming and verifying IoT and PLC logic panels. I have a proven track record of effectively managing and maintaining sophisticated equipment, ensuring optimal performance and functionality.</p>
-                            <div class="categories">Personal enthusiasm</div>
-                        </div>
-
-                        <div class="link-box">
-                            <a href="#" class="popup-modal-dismiss">Close</a>
-                        </div>
-
-                    </div> <!-- /modal-02 -->
-
-                    <div id="modal-03" class="popup-modal slider mfp-hide">
-
-                        <div class="media">
-                            <img src="images/portfolio/modals/m-salad.jpg" alt="" />
-                        </div>
-
-                        <div class="description-box">
-                            <h4>Traveling</h4>
-                            <p>Travel has always been more than a hobby for me—it's a passion that has taken me from the northernmost reaches to the southernmost points, and from the eastern to the western horizons. My extensive journeys have inspired me to create Wanderlust Memories, a travel-focused YouTube channel where I document my adventures and preserve cherished memories.</p>
-                            <div class="categories">Youtube Channel</div>
-                        </div>
-
-                        <div class="link-box">
-                            <a href="https://youtube.com/@mrpanda2330?si=RLUdtffdvgdqmoZP">Visit My Channel</a>
-                            <a href="#" class="popup-modal-dismiss">Close</a>
-                        </div>
-
-                    </div> <!-- /modal-03 -->
-
-                    <div id="modal-04" class="popup-modal slider mfp-hide">
-
-                        <div class="media">
-                            <img src="images/portfolio/modals/m-tech.jpg" alt="" />
-                        </div>
-
-                        <div class="description-box">
-                            <h4>Learning Tech</h4>
-                            <p>I have a strong interest in continuously expanding my knowledge of various technologies, including cloud computing, artificial intelligence, machine learning, and software testing. I am enthusiastic about embracing new challenges and acquiring new skills in the rapidly evolving tech landscape.</p>
-                            <div class="categories">Exploring New Technologies</div>
-                        </div>
-
-                        <div class="link-box">
-                            <a href="https://www.w3schools.com/">My Favorite Site</a>
-                            <a href="#" class="popup-modal-dismiss">Close</a>
-                        </div>
-
-                    </div> <!-- /modal-04 -->
-                    <!-- modal popups - end
-                    ============================================================= -->
-
-                </div> <!-- /portfolio-wrapper -->
-
-            </div>  <!-- /twelve -->
-
-        </div> <!-- /portfolio-content -->
-
-    </section> <!-- /portfolio -->
-
-    <!-- CTA Section
-    ================================================== -->
-    <section id="cta" class="grey-section">
-
-        <div class="row section-intro">
-            <div class="col-twelve">
-
-                <h5>Projects and Skills </h5>
-                
-
-                <p class="lead"></p>
-
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/400x300/4A90E2/FFFFFF?text=Traveling+Project" alt="Traveling Project">
+                <div class="portfolio-info">
+                    <h3>Traveling</h3>
+                    <p>YouTube Channel</p>
+                    <button class="portfolio-trigger" data-modal="modal3">View Details</button>
+                </div>
             </div>
-        </div> <!-- /section-intro -->
-
-        <div class="row cta-content">
-
-
-
-        </div> <!-- /cta-content -->
-        <div class="row about-content">
-
-            <div class="col-six tab-full">
-
-                <h1>I've worked on some Projects</h1>
-
-
-                <ul class="info-list">
-                    <li>
-                        <strong>NEWS</strong>
-                        <span>Android Application</span>
-                    </li>
-
-                    <li>
-                        <strong>Blogging site</strong>
-                        <span>Software Tester Point</span>
-                        <span>CodeDevByte</span>
-                    </li>
-                    <li>
-                        <strong>Portfolio Website:</strong>
-                        <span>Animesh.github.io</span>
-                    </li>
-                    <li>
-                        <strong>Testing Domain</strong>
-                        <span>ITIL V4</span>
-                        <span>HRM & CRM</span>
-                    </li>
-
-
-                </ul> <!-- /info-list -->
-
-            </div>
-
-            <div class="col-six tab-full">
-
-                <h1> I've got some Skills</h1>
-
-
-                <ul class="skill-bars">
-                    <li>
-                        <div class="progress percent100"></div>
-                        <strong>Language: Java,JavaScript,Python,Node.js</strong>
-                    </li>
-                    <li>
-                        <div class="progress percent100"></div>
-                        <strong>Database: MongoDB,Postgres,MySQL</strong>
-                    </li>
-                    <li>
-                        <div class="progress percent100"></div>
-                        <strong>Cloud Platform: AWS, Azure ,GitHub</strong>
-                    </li>
-                    <li>
-                        <div class="progress percent100"></div>
-                        <strong>Tools:VSCode,Eclipse,Docker,Jenkins,Postman,Git </strong>
-                    </li>
-                    <li>
-                        <div class="progress percent100"></div>
-                        <strong>Blogging: CodeDevByte,Software Tester Point</strong>
-                    </li>
-                    <li>
-                        <div class="progress percent100"></div>
-                        <strong>Automation Tools: Selenium, Playwright </strong>
-                    </li>
-
-
-                </ul> <!-- /skill-bars -->
-
-            </div>
-
-        </div>
-
-        <div class="row button-section">
-            <div class="col-twelve">
-                <a href="https://softwaretesterpoint.blogspot.com/" title="SoftwareTesterPoint" class="button stroke full-width">Testing Blog</a>
-                <a href="https://codedevbyte.blogspot.com/" title="CodeDevByte" class="button stroke full-width">Dev Blog</a>
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/400x300/4A90E2/FFFFFF?text=Tech+Learning+Project" alt="Tech Learning Project">
+                <div class="portfolio-info">
+                    <h3>Learning Tech</h3>
+                    <p>Exploring New Technologies</p>
+                    <button class="portfolio-trigger" data-modal="modal4">View Details</button>
+                </div>
             </div>
         </div>
 
-    </section> <!-- /process-->
-    </section> <!-- /cta -->
-    <!-- services Section
-    ================================================== -->
-    <section id="services">
-
-        <div class="overlay"></div>
-
-        <div class="row section-intro">
-            <div class="col-twelve">
-
-                <h5>Interests </h5>
-                <h1>Things I love to explore more</h1>
-
-                <p class="lead"></p>
-
-            </div>
-        </div> <!-- /section-intro -->
-
-        <div class="row services-content">
-
-            <div id="owl-slider" class="owl-carousel services-list">
-
-                <div class="service">
-
-                    <span class="icon"><i class="fa fa-android" aria-hidden="true"></i></span>
-
-                    <div class="service-content">
-
-                        <h3>Mobile Development</h3>
-
-                        <p class="desc">
-                            I developed the 'News' Android application, allowing users to access news articles. Implemented Hindi and English news channel pages to enhance accessibility and user experience, showcasing my proficiency in mobile app development and user-focused design.
-                        </p>
-
-                    </div>
-
-                </div> <!-- /service -->
-
-                <div class="service">
-
-                    <span class="icon"><i class="icon-earth"></i></span>
-
-                    <div class="service-content">
-
-                        <h3>Web Development</h3>
-
-                        <p class="desc">
-                            I am a self-taught web developer who started with small projects, progressed to blogging and WordPress, and now builds websites from scratch using coding languages. Proficient in hosting, domain management, and content management systems.
-                        </p>
-
-                    </div>
-
-                </div> <!-- /service -->
-
-                <div class="service">
-
-                    <span class="icon"><i class="fa fa-laptop"></i></span>
-
-                    <div class="service-content">
-
-                        <h3>Testing</h3>
-
-                        <p class="desc">
-                            I am passionate about software testing and adept at writing automation scripts. My experience encompasses security testing and database testing, reflecting my commitment to ensuring software quality.
-                        </p>
-
-                    </div>
-
-                </div> <!-- /service -->
-
-                <div class="service">
-
-                    <span class="icon"><i class="fa fa-cloud"></i></span>
-
-                    <div class="service-content">
-
-                        <h3>Cloud Tools</h3>
-
-                        <p class="desc">
-                            I am deeply passionate about cloud technology, with extensive experience and proficiency in utilizing cloud platforms such as AWS and Azure to architect scalable and resilient solutions for diverse business needs.
-                        </p>
-
-                    </div>
-
-                </div> <!-- /service -->
-
-                <div class="service">
-
-                    <span class="icon"><i class="icon-toggles"></i></span>
-
-                    <div class="service-content">
-
-                        <h3>AI/ML</h3>
-
-                        <p class="desc">
-                            I'm a passionate beginner in AI/ML, eager to learn and explore. I've started by implementing open-source AI models like LAMA and creating basic data prediction tools for analyzing IoT device logs.
-                        </p>
-
-                    </div>
-
-                </div> <!-- /service -->
-
-
-            </div> <!-- /services-list -->
-
-        </div> <!-- /services-content -->
-
-    </section> <!-- /services -->
-    <!-- stats Section
-    ================================================== -->
-    <!-- contact
-    ================================================== -->
-    <section id="contact">
-
-        <div class="row section-intro">
-            <div class="col-twelve">
-
-                <h5>Contact</h5>
-                <h1>I'd Love To Hear From You.</h1>
-
-                <p class="lead"> Feel free to contact me for any query or feedback !</p>
-
-            </div>
-        </div> <!-- /section-intro -->
-
-        <div class="row contact-form">
-
-            <div class="col-twelve">
-
-                <!-- form -->
-                <form name="contactForm" id="contactForm" method="post" action="">
-                    <fieldset>
-
-                        <div class="form-field">
-                            <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
-                        </div>
-                        <div class="form-field">
-                            <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
-                        </div>
-                        <div class="form-field">
-                            <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
-                        </div>
-                        <div class="form-field">
-                            <textarea name="contactMessage" id="contactMessage" placeholder="Message" rows="10" cols="50" required=""></textarea>
-                        </div>
-                        <div class="form-field">
-                            <button class="submitform">Submit</button>
-                            <div id="submit-loader">
-                                <div class="text-loader">Sending...</div>
-                                <div class="s-loader">
-                                    <div class="bounce1"></div>
-                                    <div class="bounce2"></div>
-                                    <div class="bounce3"></div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </fieldset>
-                </form> <!-- Form End -->
-                <!-- contact-success -->
-
-                <div id="message-success">
-                    <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+        <!-- Modal Structure -->
+        <div id="portfolio-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div id="modal-body">
+                    <!-- Dynamic content loaded here -->
                 </div>
-                
-
-            </div> <!-- /col-twelve -->
-
-        </div> <!-- /contact-form -->
-
-        <div class="row contact-info">
-
-            <div class="col-four tab-full">
-
-                <div class="icon">
-                    <i class="icon-pin"></i>
-                </div>
-
-                <h5>Where to find me</h5>
-
-                <p>
-                    Bangalore<br>
-                    India 560029
-                </p>
-
             </div>
+        </div>
 
-            <div class="col-four tab-full collapse">
+        <!-- Hidden Modal Contents (for JS to load) -->
+        <div id="modal1" style="display:none;">
+            <img src="https://via.placeholder.com/600x400/4A90E2/FFFFFF?text=Blogging+Project" alt="Blogging">
+            <h3>Blogging</h3>
+            <p>I am a tech enthusiast specializing in software testing and development. Passionate about exploring innovative solutions and optimizing processes, I thrive in the dynamic world of software quality assurance. Blogging is my outlet to share insights and inspire others in the tech community.</p>
+            <a href="https://your-blog-url.com">Visit Blog</a>
+        </div>
+        <div id="modal3" style="display:none;">
+            <img src="https://via.placeholder.com/600x400/4A90E2/FFFFFF?text=Traveling+Project" alt="Traveling">
+            <h3>Traveling</h3>
+            <p>Travel has always been more than a hobby for me—it's a passion that has taken me from the northernmost reaches to the southernmost points. My journeys have inspired me to create a travel-focused YouTube channel.</p>
+            <a href="https://your-youtube.com">Visit Channel</a>
+        </div>
+        <div id="modal4" style="display:none;">
+            <img src="https://via.placeholder.com/600x400/4A90E2/FFFFFF?text=Tech+Learning+Project" alt="Tech Learning">
+            <h3>Learning Tech</h3>
+            <p>I have a strong interest in continuously expanding my knowledge of various technologies, including cloud computing, artificial intelligence, machine learning, and software testing.</p>
+            <a href="https://your-learning-site.com">Learn More</a>
+        </div>
+    </section>
 
-                <div class="icon">
-                    <i class="icon-mail"></i>
-                </div>
-
-                <h5>Email Me At</h5>
-
-                <p>
-                    animeshpanda2305@gmail.com
-                </p>
-
-            </div>
-
-        </div> <!-- /contact-info -->
-
-    </section> <!-- /contact -->
-    <!-- footer
-    ================================================== -->
-
-    <footer>
-        <div class="row">
-
-            <div class="col-six tab-full pull-right social">
-
-                <ul class="footer-social">
-                    <li><a href="https://www.linkedin.com/in/animesh-panda-a29131193"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="https://github.com/Animesh235"><i class="fa fa-github"></i></a></li>
+    <!-- Projects and Skills Section -->
+    <section id="projects-skills">
+        <h2>Projects & Skills</h2>
+        <div class="skills-grid">
+            <div>
+                <h3>Projects</h3>
+                <ul>
+                    <li><strong>Portfolio Website</strong> - Your GitHub.io</li>
+                    <!-- Add more projects -->
                 </ul>
-
             </div>
-
-            <div class="col-six tab-full">
-                <div class="copyright">
-                    <span>© Copyright</span>
-                    <span>By Animesh</span>
+            <div>
+                <h3>Skills</h3>
+                <div class="skill-bar">
+                    <label>Language: Java, JavaScript, Python, Node.js</label>
+                    <div class="progress-bar"><div class="progress" data-width="100%"></div></div>
+                </div>
+                <div class="skill-bar">
+                    <label>Database: MongoDB, Postgres, MySQL</label>
+                    <div class="progress-bar"><div class="progress" data-width="100%"></div></div>
+                </div>
+                <div class="skill-bar">
+                    <label>Cloud Platform: AWS, Azure, GitHub</label>
+                    <div class="progress-bar"><div class="progress" data-width="100%"></div></div>
+                </div>
+                <div class="skill-bar">
+                    <label>Tools: VSCode, Eclipse, Docker, Jenkins, Postman, Git</label>
+                    <div class="progress-bar"><div class="progress" data-width="100%"></div></div>
+                </div>
+                <div class="skill-bar">
+                    <label>Blogging: Your Blog Name</label>
+                    <div class="progress-bar"><div class="progress" data-width="100%"></div></div>
                 </div>
             </div>
+        </div>
+        <div class="button-section">
+            <a href="https://your-blog.com" class="btn">Blog</a>
+        </div>
+    </section>
 
-            <div id="go-top">
-                <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+    <!-- Interests Section -->
+    <section id="interests">
+        <h2>Interests</h2>
+        <p class="lead">Things I love to explore more</p>
+        <div class="interests-grid">
+            <div class="interest-item">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Mobile Development</h3>
+                <p>I developed the 'News' Android application, allowing users to access news articles. Implemented Hindi and English news channel pages to enhance accessibility and user experience.</p>
             </div>
+            <div class="interest-item">
+                <i class="fas fa-globe"></i>
+                <h3>Web Development</h3>
+                <p>I am a self-taught web developer who started with small projects, progressed to blogging and WordPress, and now builds websites from scratch using coding languages.</p>
+            </div>
+            <div class="interest-item">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Testing</h3>
+                <p>I am passionate about software testing and adept at writing automation scripts. My experience encompasses security testing and database testing.</p>
+            </div>
+            <div class="interest-item">
+                <i class="fas fa-cloud"></i>
+                <h3>Cloud Tools</h3>
+                <p>I am deeply passionate about cloud technology, with extensive experience in utilizing cloud platforms such as AWS and Azure to architect scalable solutions.</p>
+            </div>
+            <div class="interest-item">
+                <i class="fas fa-brain"></i>
+                <h3>AI/ML</h3>
+                <p>I'm a passionate beginner in AI/ML, eager to learn and explore. I've started by implementing open-source AI models like LAMA.</p>
+            </div>
+        </div>
+    </section>
 
-        </div> <!-- /row -->
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p class="lead">I'd Love To Hear From You. Feel free to contact me for any query or feedback!</p>
+        <form id="contact-form" class="contact-form">
+            <div class="form-group">
+                <input type="text" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="subject" placeholder="Subject">
+            </div>
+            <div class="form-group">
+                <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="contact-info">
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Where to Find Me</h3>
+                <p>Your City<br>Your Country</p>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <h3>Email Me At</h3>
+                <p>your.email@example.com</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <ul class="social-links">
+            <li><a href="https://www.linkedin.com/in/your-profile" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/your-username" aria-label="GitHub"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.buymeacoffee.com/yourusername" aria-label="Buy Me Coffee"><i class="fas fa-coffee"></i></a></li>
+        </ul>
+        <p>&copy; Copyright By Your Name. All rights reserved.</p>
     </footer>
 
-   
+    <!-- Back to Top -->
+    <div id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
 
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/jquery-2.1.3.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-
+    <script src="script.js"></script>
 </body>
-
 </html>
